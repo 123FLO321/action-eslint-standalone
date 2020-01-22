@@ -19,11 +19,12 @@ function convertToGitHubActionsLoggingCommands() {
             path=$(echo $line | stripPWD)
         fi
         pat="^([0-9]+):([0-9]+) (warning|error|[^:]+) (.*)"
-        echo $line
         if [[ $line =~ $pat ]];
         then
             echo $path:$line
             echo $path:$line | format
+        else
+            echo $line
         fi
     done
 }
