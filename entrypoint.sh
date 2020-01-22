@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-# convert swiftlint's output into GitHub Actions Logging commands
+# convert eslint's output into GitHub Actions Logging commands
 # https://help.github.com/en/github/automating-your-workflow-with-github-actions/development-tools-for-github-actions#logging-commands
 
 
