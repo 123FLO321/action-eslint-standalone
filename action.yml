@@ -1,0 +1,9 @@
+name: 'GitHub Action for Standalone ESLint'
+description: 'A tool to enforce ESLint style and conventions.'
+author: 'Florian Kostenzer <florian.kostenzer@icloud.com>'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'shield'
+  color: 'orange'
