@@ -10,4 +10,5 @@ LABEL "com.github.actions.icon"="shield"
 LABEL "com.github.actions.color"="orange"
 
 COPY entrypoint.sh /
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
