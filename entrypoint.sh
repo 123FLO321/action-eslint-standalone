@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # convert eslint's output into GitHub Actions Logging commands
